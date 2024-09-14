@@ -1,0 +1,94 @@
+body{
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR3JkV0rX-qaktasb7FQ71ik3WYs-rfKHXgw&s);
+    background-size: cover;
+    
+}
+
+.description{
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.price{
+    text-align: right;
+   
+}
+
+.item {
+    display: flex; 
+    justify-content: space-between; /*provides the space between the contents*/
+    align-items: center; 
+}
+
+.menu {
+    width: 80%;
+    background-color:rgba(240, 230, 140, 0.6);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+
+hr{
+    font-weight: bolder;
+    background-color: rgba(247, 225, 23, 0.968);
+    border-color: rgba(247, 225, 23, 0.968);
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h3{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}  
+
+.drinks , .mainitem{
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+.starter{
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  /*FOOTER*/
+footer {
+    font-size: 17px;
+    height: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+.address {
+    margin-bottom: 10px;
+  }
+  
+a {
+    color: black;
+  }
+  
+ a:visited {
+    color: purple;
+  }
+  
+a:active {
+    color: brown;
+  }
+.bottom-line {
+    margin-top: 25px;
+  }
+ 
